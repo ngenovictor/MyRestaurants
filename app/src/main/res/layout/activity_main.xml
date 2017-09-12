@@ -5,24 +5,25 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context="site.ngeno.myrestaurants.MainActivity"
     android:background="#000000">
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:id="@+id/imageView"
-    android:src="@drawable/image"
-    android:scaleType="centerCrop"
-    />
-<TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="My Restaurants"
-    android:textSize="40sp"
-    android:textStyle="bold"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="35dp"
-    android:textColor="@color/colorTextIcons"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="My Restaurants"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 <EditText
     android:id="@+id/locationEdit"
     android:layout_width="wrap_content"
